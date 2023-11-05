@@ -17,7 +17,9 @@ You can reach the project here, [app](https://berenvrl.github.io/usePopcorn-reac
 
 # Visual of the project
 
-![app-visual](./visual-popcorn.png)
+![detail of selected movie](./visual-popcorn2.png)
+
+![watched movie list-review-rate](./visual-popcorn.png)
 
 # Acknowledgments
 

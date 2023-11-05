@@ -234,7 +234,6 @@ function MovieDetails({
       //cleanup function
       return function () {
         document.title = "usePopCorn";
-        console.log(`Clean up effect for the movie ${title}`);
       };
     },
     [title]
