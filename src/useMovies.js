@@ -30,12 +30,9 @@ export function useMovies(query, callback) {
 
           if (data.Response === "False") throw new Error("Movie not found");
 
-          //console.log(data);
-
           setMovies(data.Search);
           setError("");
         } catch (err) {
-          //console.log(err.name);
           if (err.name !== "AbortError") {
             setError(err.message);
           }
@@ -58,7 +55,7 @@ export function useMovies(query, callback) {
         controller.abort();
       };
     },
-    [query]
+    [query, callback]
   );
   return { movies, loading, error };
 }

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
+import React from "react";
 import "./index.css";
 import App from "./App";
 //import Rating from "./Rating";
