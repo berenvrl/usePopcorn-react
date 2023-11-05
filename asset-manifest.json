@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/usePopcorn-react/static/css/main.8cb3f8e5.css",
-    "main.js": "/usePopcorn-react/static/js/main.a57c0b5f.js",
+    "main.js": "/usePopcorn-react/static/js/main.f0492b70.js",
     "index.html": "/usePopcorn-react/index.html",
     "main.8cb3f8e5.css.map": "/usePopcorn-react/static/css/main.8cb3f8e5.css.map",
-    "main.a57c0b5f.js.map": "/usePopcorn-react/static/js/main.a57c0b5f.js.map"
+    "main.f0492b70.js.map": "/usePopcorn-react/static/js/main.f0492b70.js.map"
   },
   "entrypoints": [
     "static/css/main.8cb3f8e5.css",
-    "static/js/main.a57c0b5f.js"
+    "static/js/main.f0492b70.js"
   ]
 }
