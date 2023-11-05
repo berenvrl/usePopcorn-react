@@ -1,3 +1,24 @@
+# UsePopcorn App For
+
+App for rotten tomatoes(For movie reviews) made by React.
+
+# Built with
+
+- JavaScript, React(v18.2)
+
+# Reach the App
+
+You need to follow these steps to reach the project
+1-Clone the repo
+2-In the project directory, you can run `npm install`
+3-Run `npm start`
+
+You can reach the project here, [app](https://berenvrl.github.io/usePopcorn-react/)
+
+# Visual of the project
+
+![app-visual](./visual-popcorn.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
