@@ -18,3 +18,8 @@ You can reach the project here, [app](https://berenvrl.github.io/usePopcorn-reac
 # Visual of the project
 
 ![app-visual](./visual-popcorn.png)
+
+# Acknowledgments
+
+Project is built during the course in Udemy.
+The Ultimate React Course 2023: React, Redux &More by Jonas Schmedtmann.
