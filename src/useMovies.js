@@ -20,7 +20,7 @@ export function useMovies(query, callback) {
           setError("");
 
           const res = await fetch(
-            `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
+            `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
             { signal }
           );
 
@@ -55,7 +55,7 @@ export function useMovies(query, callback) {
         controller.abort();
       };
     },
-    [query, callback]
+    [query]
   );
   return { movies, loading, error };
 }

@@ -215,7 +215,7 @@ function MovieDetails({
     function () {
       async function fetcmoviedetails() {
         const response = await fetch(
-          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedid}`
+          `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedid}`
         );
 
         const data = await response.json();
@@ -314,7 +314,11 @@ function MovieWatchedList({ watched, onhandleDeleteMovie }) {
   return (
     <ul className="list">
       {watched.map((movie) => (
-        <WatchedItem movie={movie} onhandleDeleteMovie={onhandleDeleteMovie} />
+        <WatchedItem
+          movie={movie}
+          onhandleDeleteMovie={onhandleDeleteMovie}
+          key={movie.imdbID}
+        />
       ))}
     </ul>
   );
