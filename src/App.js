@@ -215,7 +215,7 @@ function MovieDetails({
     function () {
       async function fetcmoviedetails() {
         const response = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedid}`
+          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedid}`
         );
 
         const data = await response.json();
